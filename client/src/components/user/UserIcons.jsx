@@ -5,7 +5,7 @@ import { Box ,IconButton,Badge , Tooltip,Avatar} from '@mui/material'
 import React ,{useState} from 'react'
 
 import {useValue} from '../context/ContextProvider.jsx';
-import UserMenu from '../UserMenu.jsx';
+import UserMenu from './UserMenu.jsx';
 
 const UserIcons = () => {
     const {state:{currentUser}} = useValue();
